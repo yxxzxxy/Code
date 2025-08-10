@@ -7,6 +7,8 @@ This code is designed by inputting the probabilities of events at each level, th
 ```R
 # install.packages('devtools')
 devtools::install_github("yzybjut/doughnut")
+
+##remark: If the installation is unsuccessful using the above method, you can download the zip file from GitHub and install it locally via offline download
 ```
 
 ## Example
