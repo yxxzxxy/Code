@@ -1,0 +1,13 @@
+Package: YanXu_cycle
+Type: Package
+Title: Visualizing Conditional Probability
+Version: 0.1.0
+Author：Zhengyi Yan
+Description: By inputting the probabilities of events at each level, the visualization of the target conditional probability event is depicted through an annulus chart.
+License: What license is it under?
+Imports: 
+    tastypie
+    tidyverse
+    ggplot2
+Encoding: UTF-8
+LazyData: true
