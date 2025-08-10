@@ -1,5 +1,3 @@
-getwd()
-setwd("/Users/xu-blue/Desktop/Yan-Xu-Code")
 source("ringfunction.R")
 
 # Input the probability
