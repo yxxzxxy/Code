@@ -3,10 +3,10 @@
 This code is designed by inputting the probabilities of events at each level, the visualization of the target conditional probability event is depicted through a doughnut diagram.
 
 ## Packages
-### Install the `R` package `YanXu_ring` from [GitHub](https://github.com/yxxzxxy/YZYBOX)
+### Install the `R` package `YanXu_ring` from [GitHub](https://github.com/yzybjut/doughnut)
 ```R
 # install.packages('devtools')
-devtools::install_github("yxxzxxy/Code")
+devtools::install_github("yzybjut/doughnut")
 ```
 
 ## Example
