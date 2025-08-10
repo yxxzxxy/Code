@@ -3,7 +3,7 @@ Type: Package
 Title: Visualizing Conditional Probability by Doughnut Diagram
 Version: 0.1.0
 Author：Zhengyi Yan
-Description: By inputting the probabilities of events at each level, the visualization of the target conditional probability event is depicted through a doughtnut diagram.
+Description: By inputting the probabilities of events at each level, the visualization of the target conditional probability event is depicted through a doughnut diagram.
 License: What license is it under?
 Imports: 
     tastypie
