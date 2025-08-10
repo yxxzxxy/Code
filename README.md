@@ -6,7 +6,7 @@ This code is designed by inputting the probabilities of events at each level, th
 ### Install the `R` package `YanXu_cycle` from [GitHub](https://github.com/yxxzxxy/YZYBOX)
 ```R
 # install.packages('devtools')
-devtools::install_github("yxxzxxy/YZYBOX")
+devtools::install_github("yxxzxxy/Code")
 ```
 
 ## Example
@@ -53,8 +53,13 @@ data <- data.frame(category = c("A[1]~B[1]~B[2]", "A[1]~B[1]~bar(B)[2]",
                    fraction = c(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12))
 
 #The innermost annulus representing the sought conditional probability.
-Candidate = YanXu_cycle(data, color_ca1 = c("B\\[2\\]"), color_ca2 = c("B\\[1\\]~B\\[2\\]"), 
-                 max_location = 6, min_location = 4.5)
+candidate = YanXu_ring(data, 
+                         blue = c("B\\[2\\]"), 
+                         pink = c("B\\[1\\]~B\\[2\\]"),
+                         max_location = 6, 
+                         min_location = 4.5,
+                         angle = 90)
+candidate
 
 
 ```
